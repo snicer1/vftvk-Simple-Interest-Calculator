@@ -1,5 +1,18 @@
-body {background-color:black; font: arial; color: white;}
-h1{color:grey; font: verdana;}
+* {
+
+}
+
+body {
+    background-color:black;
+    font: arial;
+    color: white;
+}
+h1{
+    color:grey;
+    font: verdana;
+    font-size:26px;
+}
+
 
 .maindiv {
   width: 300px;
@@ -7,7 +20,14 @@ h1{color:grey; font: verdana;}
   background-color: white;
   padding: 20px;
   border-radius: 25px;
-  display: flex;
-  justify-content: center;
+  margin: auto;
+}
 
+.maindiv > a {
+    display: block;
+    padding: 5px 15px;
+}
+
+#rate_value {
+    font-size: 14px;
 }
